@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/smoothproducts.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container"><a class="navbar-brand logo" href="#">TryIt!</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#how">How To Use</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#feature">Features</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#about">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page landing-page">
+        <section class="clean-block clean-hero" style="background-image: url(&quot;assets/img/tech/images.jpg&quot;);color: rgba(9, 162, 255, 0.85);">
+            <div class="text">
+                <h2 style="margin-top: 46px;">How would that dress look on me?</h2>
+                <p>Try different styles on yourself just with one photo of yours and an image of the cloth, you want to wear!</p><span style="width: auto;"></span>
+                <div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div style="background: url(&quot;assets/img/avatars/avatar1.jpg&quot;);height: 195px;width: 200px;background-size: cover;border-radius: 30px;margin-left: auto;margin-bottom: 20px;margin-right: auto;" id="person_"></div>
+                                <button title="Add Person Image" id="add_person" class="btn btn-outline-light btn-lg" type="button" style="margin-right: auto;margin-bottom: 22px;margin-left: auto;" id="add_person">Upload Your Image</button><br>
+                                <input type="file" id="select_person" style="width: 0px; height:0px; visibility:hidden;" accept="image/*">
+                            </div>
+                            <div class="col-md-6">
+                                <div style="background: url(&quot;assets/img/avatars/avatar2.jpg&quot;);height: 195px;background-size: cover;width: 200px;border-radius: 30px;margin-left: auto;margin-bottom: 20px;margin-right: auto;" id="cloth_"></div>
+                                <button title="Add Cloth Image" id="add_cloth" class="btn btn-outline-light btn-lg" type="button" style="margin-left: auto;" id="add_cloth">Upload&nbsp;Cloth Image</button><br>
+                                <input type="file" id="select_cloth" style="width: 0; height:0; visibility:hidden" accept="image/*">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-outline-light btn-lg" type="button" style="margin-top: 0px;margin-bottom: 38px;border-radius: 9px;border-width: 5px;border-color: var(--teal);" id="run">Run</button>
+
+                <div id="progess" style="width:100%px; height:30px; background:var(--teal); opacity:0;border-radius: 9px; transition:1s ease-in">
+                    <div id="progress-bar" style="width:0px; height:30px; background:white; transition:10s ease-in;border-radius: 9px"></div>
+                </div>
+                <div id="magic" style="background: url(&quot;assets/img/scenery/image5.jpg&quot;) center / cover;width: 1039px; height:462px; border-radius: 40px; margin: 37px auto; transform: translateX(-200px)"></div>
+            </div>
+        </section>
+
+        <section id="how" class="clean-block clean-info dark" style="text-align: center;">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">How to Use</h2>
+                    <p style="font-size: 17px;">Just Upload your image and the image of cloth, you wanna see yourself in and press run. Leave all the rest on us. Also we don't store any of your data!</p>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col" style="text-align: center;"><img class="img-fluid" src="assets/img/try1.png" style="width: 647px;text-align: center;"></div>
+                </div>
+            </div><img class="img-fluid" src="assets/img/try2.png" style="margin-top: 42px;text-align: center;width: 653px;">
+        </section>
+        <section id="feature" class="clean-block features">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">Features</h2>
+                    <p></p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-5 feature-box"><i class="icon-star icon"></i>
+                        <h4>Try any dress</h4>
+                        <p>You can literally try any dress on yourself, the only limitation being you have access to a photo of that dress.</p>
+                    </div>
+                    <div class="col-md-5 feature-box"><i class="icon-lock icon"></i>
+                        <h4>Privacy</h4>
+                        <p>We don't store any of your data cause privacy matters!</p>
+                    </div>
+                    <div class="col-md-5 feature-box"><i class="icon-screen-smartphone icon"></i>
+                        <h4>Use on any device</h4>
+                        <p>Don't have a computer, you don't need one. Use this platform on any website since it is fully responsive.</p>
+                    </div>
+                    <div class="col-md-5 feature-box"><i class="icon-magic-wand icon"></i>
+                        <h4>Easy to use</h4>
+                        <p>Trying any dress is just a matter of few clicks. Just upload the images and let the magic happen.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="clean-block about-us">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">About Us</h2>
+                    <p>We are team AOI and this project was made fo a hackathon of IIT Mandi, Hack30.</p>
+                </div>
+                <h2 class="text-info" style="text-align: center;margin-bottom: 20px;">Team</h2>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card text-center clean-card">
+                            <div class="card-body info">
+                                <h4 class="card-title">Priyanshu Shubham</h4>
+                                <p class="card-text">Frontend Designer, AI geek</p>
+                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card text-center clean-card">
+                            <div class="card-body info">
+                                <h4 class="card-title">Rohan Raj Kansal</h4>
+                                <p class="card-text">Backend Dev, AI enthusiast</p>
+                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card text-center clean-card">
+                            <div class="card-body info">
+                                <h4 class="card-title">Sourav Sehgal</h4>
+                                <p class="card-text">Python lord, Frontend dev</p>
+                                <div class="icons"><a href="#"><i class="icon-social-facebook"></i></a><a href="#"><i class="icon-social-instagram"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="assets/js/smoothproducts.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script>
+        let select_person = document.getElementById("select_person");
+        let select_cloth = document.getElementById("select_cloth");
+        let add_person = document.getElementById("add_person");
+        let add_cloth = document.getElementById("add_cloth");
+        let div_person = document.getElementById("person_");
+        let div_cloth = document.getElementById("cloth_");
+        let run = document.getElementById("run");
+        let magic = document.getElementById("magic");
+
+        add_person.addEventListener("click", () => {
+            console.log("ROhan");
+            select_person.click();
+        })
+
+        add_cloth.addEventListener("click", () => {
+            console.log("raj");
+            select_cloth.click();
+        })
+
+        select_person.addEventListener("change", function(event) {
+            URL.revokeObjectURL(div_person)
+            let image = URL.createObjectURL(event.target.files[0])
+            div_person.style.background = `url(${image})`
+        })
+
+        select_cloth.addEventListener("change", function(event) {
+            URL.revokeObjectURL(div_cloth)
+            let image = URL.createObjectURL(event.target.files[0])
+            div_cloth.style.background = `url(${image})`
+        })
+
+        run.addEventListener("click", async function() {
+            this.innerText = "Loading Please Wait..."
+            this.disabled = true
+            document.getElementById("progess").style.opacity = 1
+            document.getElementById("progress-bar").style.width = "100%"
+            await Tutor(5000)
+
+            let res = await fetch("www.xyz.com");
+            if (!res.ok) {
+                this.innerText = "Server not found :("
+                await Tutor(5000)
+            }
+
+
+            this.innerText = "Run"
+            this.disabled = false
+
+            document.getElementById("progess").style.opacity = 0
+            document.getElementById("progress-bar").style.width = "0"
+
+
+            console.log("Rohan")
+        })
+
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+        async function Tutor(ms) {
+            await sleep(ms);
+        }
+    </script>
+
+</body>
+
+</html>
