@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Joti One
+- Font Author: Copyright (c) 2012, Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font Name 'Joti'
+- Font Source: http://fonts.gstatic.com/s/jotione/v9/Z9XVDmdJQAmWm9TwaYTe4u2El6GC.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)
