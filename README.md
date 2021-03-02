@@ -7,6 +7,7 @@ We are trying to build an interactive platform which can take a user's photo and
 ## Resources
 
 - Google Colab Notebook For Project: [Click Here](https://colab.research.google.com/drive/15w4ePIf6KikxAHYzz69Alf9lHlz4ustL?usp=sharing)
+- Server Notebook: [Click Here](https://colab.research.google.com/drive/1cckRAu3YR33EFIb952r9NImxZcuWi587?usp=sharing)
 - Website Platform for Project:  [Click Here](https://xenodochial-shirley-9c6c9f.netlify.app/)
 - Video of website in action: [Click Here](./videoGuides/WebsiteOverview.mp4)
 - How to run the Colab Notebook: [Click Here](./videoGuides/HowToRunTheColabNotebook)
