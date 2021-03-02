@@ -4,14 +4,29 @@
 
 We are trying to build an interactive platform which can take a user's photo and give them an output of how they will look in a dress that they are considering. It will be a virtual try on room where you can try different clothes on yourself and see which ones look good on you cause not everything that looks on a model of 6’2’’ will look good on a guy with height of 4’2’’.
 
+## How To Run
+
+- Go to the [server colab notebook](https://colab.research.google.com/drive/1cckRAu3YR33EFIb952r9NImxZcuWi587?usp=sharing) and run all the cells from top to bottom order.
+- Go to the last cell where the flask app is and copy the NGROK link that is shown in the output cell.
+- Go to the [TryIt! platform](https://xenodochial-shirley-9c6c9f.netlify.app/) and paste the NGROK link in the text box on top of website.
+- Upload your image and the cloth image. **The model for now is only trained on tops for female**. If you don't have any pictures to try on, you can go [here](.\trial_Images) to get some images. These images are from test data of the model.
+- Click Run and let the magic happen.
+
 ## Resources
 
 - Google Colab Notebook For Project: [Click Here](https://colab.research.google.com/drive/15w4ePIf6KikxAHYzz69Alf9lHlz4ustL?usp=sharing)
+
 - Server Notebook: [Click Here](https://colab.research.google.com/drive/1cckRAu3YR33EFIb952r9NImxZcuWi587?usp=sharing)
+
 - Website Platform for Project:  [Click Here](https://xenodochial-shirley-9c6c9f.netlify.app/)
+
 - Video of website in action: [Click Here](./videoGuides/WebsiteOverview.mp4)
+
 - How to run the Colab Notebook: [Click Here](./videoGuides/HowToRunTheColabNotebook)
+
 - Trial Images: [Click Here](.\trial_Images)
+
+  
 
 ## **Why This Project?**
 
